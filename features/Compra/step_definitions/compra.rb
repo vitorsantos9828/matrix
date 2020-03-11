@@ -24,7 +24,7 @@ Quando("colocar um email valido e clicar em create an account") do
   find(:xpath, '/html/body/div/div[2]/div/div[3]/div/div/div[1]/form/h3')
   page.execute_script('window.scrollBy(0,400)')
   find(:xpath, '/html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[2]/input').click
-  fill_in('email_create', :with => '2322sssssssss2sssssqs1s1@hotmail.com')
+  fill_in('email_create', :with => 'fetas@hotmail.com')
   sleep 2
   find(:xpath, '/html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button/span').click
 end

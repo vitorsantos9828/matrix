@@ -37,5 +37,4 @@ Entao("clica na lixeira e  o produto sera eliminado do carrinho.") do
   sleep 2
   find(:xpath, '//*[@id="center_column"]/p')
   page.execute_script('window.scrollBy(0,200)')
-  sleep
  end

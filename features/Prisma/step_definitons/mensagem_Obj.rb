@@ -7,6 +7,3 @@ class ContactPage < SitePrism::Page
   element :submitMessage, :xpath, '//*[@id="submitMessage"]/span'
   element :contact, :xpath, '//*[@id="contact"]'
 end
-
-
-
